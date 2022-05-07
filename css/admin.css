@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: white;
+}
+
+nav{
+  height: 7vh;
+  width: 100%;
+  background: #2267f2;
+
+}
+
+nav ul {
+  width: 100%;
+
+
+
+}
+
+nav ul li{
+  width: 11%;
+  display: inline-block;
+  padding-top: 1vh;
+
+
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin-left: 6%;
+  font-size: 0.9vw;
+  font-family: sans-serif;
+  color: white;
+}

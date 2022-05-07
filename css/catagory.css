@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background: white;
+}
+
+h1{
+  color: blue;
+  margin-top: 4vh;
+}
+
+.catForm{
+  margin-left: 10%;
+  margin-top: 3vh;
+  height: 20vh;
+  width: 25vw;
+  background: white;
+  box-shadow: 1px 1px 1px 1px blue;
+
+  display: inline-block;
+
+
+
+}
+
+.catForm input[type=text]{
+  margin-left: 2vw;
+  margin-top: 2vh;
+  padding: 1vw 1vh;
+  width: 20vw;
+}
+
+.catForm input[type=submit]{
+  padding: 1vh;
+  float: right;
+  margin-right: 2vw;
+}
+
+.catShow{
+  float: right;
+
+  margin-top: 2vh;
+  padding: 1vw 1vh;
+  width: 30vw;
+  height: auto;
+  /*display: inline-block;*/
+
+  margin-right: 10%;
+
+
+}
+ .catShow #myTable{
+  border-collapse: collapse;
+
+ }
+.catShow #myTable thead{
+  background: #2267f2;
+  color: white;
+  border-style: 1px inset blue;
+
+
+}
+
+.catShow #myTable th{
+ height: 4vh;
+ width: 10vw;
+ background: blue;
+ border-top: 1px solid grey;
+
+}
+.catShow #myTable .one{
+  background: white;
+  border-bottom: 0.1vh solid #d4e3fa;
+  border-left: 0.1vh solid #d4e3fa;
+}
+
+.catShow #myTable .two{
+  background: white;
+  border-bottom: 0.1vh solid #d4e3fa;
+
+  border-right:0.1vh solid #d4e3fa;
+
+}
+
+.catShow #myTable td:hover{
+  background: #bfd8ff;
+  border-bottom: 1px solid grey;
+}
